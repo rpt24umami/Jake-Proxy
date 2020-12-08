@@ -1,0 +1,254 @@
+.mainContainer{
+margin-left:15%;
+width:120%;
+}
+#banner12 {
+
+
+  width: 150%;
+  background-color: #fff;
+  box-sizing: border-box;
+  color: #222;
+  border-bottom: 1px solid rgb(221, 221, 221);
+  padding-bottom: 20px;
+  font: 12px Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+
+
+
+
+}
+#banner_image {
+  max-width: 100%;
+  cursor: pointer;
+}
+.headerLinkList{
+  margin:0;
+  list-style-type: none;
+  display:flex;
+  float:right;
+
+  flex-direction:right;
+}
+.headerLink {
+  color: #777;
+  font-weight:400;
+  font: 13px Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
+  padding:10px;
+  cursor: pointer;
+
+}
+.browseDropDown {
+  padding: 12px 18px 10px;
+  font-weight: 400;
+  font-size:16px;
+  line-height: 1.1;
+  width: 7.5%;
+  /* vertical-align:left;
+  display: inline-flex; */
+  color: #222;
+  border-radius: 3px;
+  border: solid;
+  margin-top:10px;
+  margin-right: 20px;
+  border-color: lightgray;
+  border-width:thin;
+  cursor: pointer;
+  display:flex;
+
+
+}
+.downArrow {
+  border: solid black;
+  border-width: 0 .1px .1px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  margin-left:5px;
+  margin-top: 2.5px;
+
+
+}
+.browseAndSearch {
+  display: flex;
+
+
+
+}
+.searchBar {
+  border:solid;
+  width: 30%;
+  color: #222;
+  border-radius: 3px;
+  border: solid;
+  margin-top:10px;
+  margin-right: 0;
+  border-color: lightgray;
+  border-width:thin;
+  padding: 12px 18px 10px;
+  font-weight: 400;
+  font-size:16px;
+  line-height: 1.1;
+
+
+}
+.searchButtonImage {
+  width: 5%;
+  height:4%;
+  margin-top:10px;
+  margin-left: -2px;
+  cursor: pointer;
+
+}
+.actionLinkList{
+  margin:0;
+  list-style-type: none;
+  display:flex;
+
+
+  margin-left: auto;
+}
+.actionLink {
+  color:black;
+  font-weight:400;
+  font: 14px Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
+  padding:10px;
+  cursor: pointer;
+  float: right;
+  white-space: nowrap;
+  margin-top:auto;
+
+
+}
+.actionLink img {
+  height: 25%;
+
+
+  margin:0;
+}
+.actionImg {
+  color:black;
+  font-weight:400;
+  font: 14px Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
+  padding:0;
+  cursor: pointer;
+  float: right;
+  white-space: nowrap;
+  margin-top:auto;
+  padding-left:5px;
+  padding-right: 5px;
+
+
+}
+.sideBox {
+  border:solid;
+  display: flex;
+  float: right;
+}
+.cartBox {
+
+   position: absolute;
+   right: 0%;
+   top: 15%;
+  height:300px;
+  width:300px;
+  margin-top:40px;
+  margin-right:10%;
+  background-color: #f5f5f5;
+
+
+}
+
+.cartBoxList {
+  display:table;
+  margin-left:30px;
+  align-content: center;
+  list-style-type: none;
+  padding-right: 50px;
+  padding-left:0;
+
+}
+.digitalResourceBoxList {
+  display:table;
+
+  align-content: center;
+  list-style-type: none;
+  /* padding-right: 50px; */
+  padding-left:0;
+}
+.price {
+ margin-top: 40px;
+ font-weight: 1200;
+  font: 30px Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
+  text-align: center;
+  padding-left:50px;
+}
+.digitalDownload {
+
+  text-align: center;
+  padding-left: 50px;
+  font-weight: 800;
+  color: #777;
+  font: 14px Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+
+}
+.addOneToCart {
+  text-align: center;
+  border: solid;
+  background-color: #0aa96c;
+  font-family: Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
+  color: white;
+  font-weight: 600;
+  padding: 12px 10px;
+  width: 120%;
+  margin-top:10px;
+  margin-right: 5px;
+  padding-right: 0;
+
+}
+.buyLicense {
+  text-align: center;
+
+  background-color: white;
+  font-family: Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
+  color: #777;
+  font-weight: 600;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 13px;
+  padding-left: 10px;
+  width:115%;
+  margin-top:10px;
+}
+.wishList {
+  text-align: center;
+  font-weight: 400;
+  color: #777;
+  font-family: Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+  margin-left: 60px;
+  margin-top: 30px;
+}
+
+.digitalResourceBox {
+
+   position: absolute;
+   right: 0%;
+   top: 60%;
+  height:100px;
+  width:300px;
+  margin-top:40px;
+  margin-right:10%;
+  background-color: #f5f5f5;
+
+}
+.digitalResource{
+  padding-bottom: 10px;
+  text-align: center;
+  margin: auto;
+  font-weight: 800;
+  color: #777;
+  font: 14px Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
